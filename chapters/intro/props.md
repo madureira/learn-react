@@ -1,6 +1,6 @@
 # Props
 
-![](/images/image_006.png)
+![](/images/image_008.png)
 
 Every developer, regardless of language, framework or library, has at some point needed to pass parameters from one function to another.
 
