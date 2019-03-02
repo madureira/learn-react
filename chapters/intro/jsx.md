@@ -73,7 +73,7 @@ const element = (
 );
 ```
 
-## Specifying attributes with JSX
+## Specifying attributes in JSX
 
 You can declare attributes in JSX as you usually do in HTML. However, it's important to note that since JSX closer to Javascript than HTML, the syntax for JSX attributes uses the [CamelCase](https://en.wikipedia.org/wiki/Camel_case) property naming convention instead of HTML attribute names.
 
@@ -93,7 +93,7 @@ const element = <div tabIndex='0'></div>;
 const element = <input type='text' readOnly={true} />
 ```
 
-## Specifying children with JSX
+## Specifying children in JSX
 
 If a tag is empty, you can close it immediately with `/>`, as we do in [XML](https://www.w3schools.com/xml/xml_whatis.asp):
 
@@ -110,3 +110,7 @@ const element = (
   </div>
 );
 ```
+
+Throughout this tutorial, you learn how to build extremely complex components using JSX through compositing.
+
+Stay tuned 😉
