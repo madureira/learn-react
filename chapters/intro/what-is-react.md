@@ -33,7 +33,7 @@ But if you desire to build a mobile app, don't worry, React can help you with it
 
 You may be wondering:
 
-> \- If React is just a library (not a framework) to create UI's, how can I build a whole web application with it?
+> \- If React is just a library to create UI's, how can I build a whole application with it?
 
 When we hear someone say that an application was created in ReactJs, what the person is saying is that the React library was combined with other libraries that are part of their ecosystem to build that app.
 
