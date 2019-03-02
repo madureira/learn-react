@@ -5,4 +5,5 @@
     * [Virtual-DOM](chapters/intro/virtual-dom.md)
     * [JSX](chapters/intro/jsx.md)
     * [Components](chapters/intro/components.md)
+    * [Props](chapters/intro/props.md)
 * [Sources](chapters/sources.md)
