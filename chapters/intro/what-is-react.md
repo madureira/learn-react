@@ -47,3 +47,5 @@ Often, this ecosystem is formed by the following tools:
 - [Flux](https://facebook.github.io/flux/) / [Redux](https://redux.js.org/)
 - [axios](https://github.com/axios/axios)
 - [Jest](https://jestjs.io/) / [Mocha](https://mochajs.org/) / [Jasmine](https://jasmine.github.io/)
+
+Don't worry! We'll look in detail, many of these tools.
