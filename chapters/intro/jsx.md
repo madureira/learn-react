@@ -20,7 +20,7 @@ Rather than artificially separating technologies by placing markup and logic in 
 
 ## Embedding expressions in JSX
 
-Because JSX is a JavaScript extension, you can incorporate any expression by wrapping it in braces `{ }`.
+Because JSX is a JavaScript extension, you can incorporate any expression by wrapping it in braces `{}`.
 
 Let's look at the example below:
 
