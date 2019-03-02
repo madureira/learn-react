@@ -19,9 +19,9 @@ Imagine that you need to create a component to display the number of Likes in a 
 Initially, we could create something like:
 
 ```js
-import React from 'react';
+import React, { Component } from 'react';
 
-class Like extends React.Component {
+class Like extends Component {
 
   render() {
     return (
@@ -39,3 +39,39 @@ export default Like;
 ```
 
 ![](/images/image_011.png)
+
+
+Now we need to add an event on the button to let the counter know that the number of Likes has changed.
+
+That's where the state comes into play!
+
+Through the state, we will have an initial value for this counter, that is, zero, as the user clicks the like button, the number will be incremented.
+
+Let's add an initial state for this component:
+
+```js
+import React, { Component } from 'react';
+
+class Like extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      likes: 0
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        <p>This is my article. Did you like it?</p>
+        <button>Like</button>
+        <span>{ this.state.likes }</span>
+      </div>
+    );
+  }
+
+}
+
+export default Like;
+```
