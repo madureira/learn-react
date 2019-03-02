@@ -4,4 +4,5 @@
     * [What is React?](chapters/intro/what-is-react.md)
     * [Virtual-DOM](chapters/intro/virtual-dom.md)
     * [JSX](chapters/intro/jsx.md)
+    * [Components](chapters/intro/components.md)
 * [Sources](chapters/sources.md)
