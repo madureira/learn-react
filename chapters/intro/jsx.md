@@ -111,6 +111,6 @@ const element = (
 );
 ```
 
-Throughout this tutorial, you learn how to build extremely complex components using JSX through compositing.
+Throughout this tutorial, you learn how to build extremely complex components using JSX through composition.
 
 Stay tuned 😉
