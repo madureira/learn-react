@@ -37,11 +37,12 @@ You may be wondering:
 
 When we hear someone say that an application was created in ReactJs, what the person is saying is that the React library was combined with other libraries that are part of their ecosystem to build that app.
 
-This ecosystem often is formed by the following tools:
+Often, this ecosystem is formed by the following tools:
 
 - [React](https://reactjs.org/)
 - [JSX](https://reactjs.org/docs/glossary.html#jsx)
 - [ES6](http://es6-features.org/)
+- [Babel](https://babeljs.io/)
 - [Webpack](https://webpack.js.org/)
 - [Flux](https://facebook.github.io/flux/) / [Redux](https://redux.js.org/)
 - [axios](https://github.com/axios/axios)
