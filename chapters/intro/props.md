@@ -51,8 +51,6 @@ export default function App() {
 
 The output for the above code will be:
 
-```
-Hello, Alice!
-```
+![](/images/image_008.png)
 
 The `props` are handy and make it possible to create flexible and even generic components.
