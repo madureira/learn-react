@@ -4,7 +4,7 @@
 
 The goal of this project is to help developers to learn React and the whole stack behind this powerful and amazing library.
 
-Through this tutorial, you will be able to construct an entire application using React and other usefull libraries like Bebel, Webpack, etc...
+Through this tutorial, you will be able to construct an entire application using React and other usefull libraries like [Babel](https://babeljs.io/), [Webpack](https://webpack.js.org/), etc...
 
 ## Read on [GitBook](https://madureira.gitbook.io/learn-react/)
 
