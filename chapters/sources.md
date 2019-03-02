@@ -21,3 +21,5 @@
 [http://es6-features.org](http://es6-features.org)
 
 [https://revelry.co/the-virtual-dom/](https://revelry.co/the-virtual-dom/)
+
+[https://hackernoon.com/reusing-ui-components-its-not-that-hard-f985f1472b9](https://hackernoon.com/reusing-ui-components-its-not-that-hard-f985f1472b9)
