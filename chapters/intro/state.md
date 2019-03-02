@@ -45,7 +45,7 @@ Now we need to add an event on the button to let the counter know that the numbe
 
 That's where the state comes into play!
 
-Through the state, we will have an initial value for this counter, that is, zero, as the user clicks the like button, the number will be incremented.
+Through the state, we will have an initial value for this counter, that is **0** (zero), as the user clicks the like button, the number will be incremented.
 
 Let's add an initial state for this component:
 
