@@ -19,3 +19,5 @@
 [http://loopinfinito.com.br/2014/10/29/hoisting-e-escopo-em-javascript/](http://loopinfinito.com.br/2014/10/29/hoisting-e-escopo-em-javascript/)
 
 [http://es6-features.org](http://es6-features.org)
+
+[https://revelry.co/the-virtual-dom/](https://revelry.co/the-virtual-dom/)
