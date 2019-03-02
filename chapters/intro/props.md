@@ -1,6 +1,6 @@
 # Props
 
-![](/images/image_007.png)
+![](/images/image_006.png)
 
 Every developer, regardless of language, framework or library, has at some point needed to pass parameters from one function to another.
 
@@ -51,6 +51,6 @@ export default function App() {
 
 The output for the above code will be:
 
-![](/images/image_008.png)
+![](/images/image_009.png)
 
 The `props` are handy and make it possible to create flexible and even generic components.

@@ -56,3 +56,7 @@ export default function App() {
 ```
 
 Notice how we insert our `<Button/>` component into another component, in this case, the `App` component.
+
+The output for the above code will be:
+
+![](/images/image_007.png)
