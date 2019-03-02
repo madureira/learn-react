@@ -1,6 +1,6 @@
 # What is React?
 
-![](/images/image_0.png)
+![](/images/image_000.png)
 
 [React](https://reactjs.org/) is a library that helps you to create user interface components.
 
