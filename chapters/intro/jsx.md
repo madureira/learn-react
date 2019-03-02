@@ -36,7 +36,7 @@ const element = (
 
 After compilation, JSX expressions become regular JavaScript function calls.
 
-Below we have the JSX result code above:
+Below we have the resulted code from the JSX above:
 
 ```js
 'use strict';
@@ -69,6 +69,44 @@ function getGreeting(user) {
 const element = (
   <div>
     { getGreeting({ name: 'Alice' }) }
+  </div>
+);
+```
+
+## Specifying attributes with JSX
+
+You can declare attributes in JSX as you usually do in HTML. However, it's important to note that since JSX closer to Javascript than HTML, the syntax for JSX attributes uses the [CamelCase](https://en.wikipedia.org/wiki/Camel_case) property naming convention instead of HTML attribute names.
+
+For example, the HTML attribute `class` becomes `className` in JSX, and `tabindex` becomes `tabIndex`.
+
+Here are some examples:
+
+```js
+const element = <div className='modal'></div>;
+```
+
+```js
+const element = <div tabIndex='0'></div>;
+```
+
+```js
+const element = <input type='text' readOnly={true} />
+```
+
+## Specifying children with JSX
+
+If a tag is empty, you can close it immediately with `/>`, as we do in [XML](https://www.w3schools.com/xml/xml_whatis.asp):
+
+```js
+const element = <div className='background' />;
+```
+
+JSX tags may contain children:
+
+```js
+const element = (
+  <div>
+    <h1>Hello!</h1>
   </div>
 );
 ```
