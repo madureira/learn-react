@@ -25,3 +25,5 @@
 [https://hackernoon.com/reusing-ui-components-its-not-that-hard-f985f1472b9](https://hackernoon.com/reusing-ui-components-its-not-that-hard-f985f1472b9)
 
 [https://webdesigntips.blog/web-design/javascript/using-react-style-callback-props-with-vue-pros-and-cons/](https://webdesigntips.blog/web-design/javascript/using-react-style-callback-props-with-vue-pros-and-cons/)
+
+[https://www.raywenderlich.com/1729-integrating-parse-and-react-native-for-ios](https://www.raywenderlich.com/1729-integrating-parse-and-react-native-for-ios)
