@@ -4,7 +4,7 @@
 
 The goal of this project is to help developers to learn [React](https://reactjs.org/) and the whole stack behind this powerful and amazing library.
 
-Through this tutorial, you will be able to construct an entire application using React and other usefull libraries like [Babel](https://babeljs.io/), [Webpack](https://webpack.js.org/), etc...
+Through this tutorial, you will be able to construct an entire application using React and other useful libraries like [Babel](https://babeljs.io/), [Webpack](https://webpack.js.org/), etc.
 
 ## Read on [GitBook](https://madureira.gitbook.io/learn-react/)
 
@@ -17,13 +17,13 @@ Through this tutorial, you will be able to construct an entire application using
 ## Who is it for?
 
 - Developers who want to use React in their projects, but don't know how to start;
-- Developers who already use React, but that wants to deep dive into some concepts and to understand how things magically happens;
+- Developers who already use React, but wants to deep dive into some concepts and to understand how things proceed;
 
 ## What tech do I need?
 
 * Any Operational System \(Windows, Linux or Mac\);
-* You need to have the [Node.js](https://nodejs.org/en/) installed correctly in your machine, preferred the last release;
-* You need to have a code editor, or some IDE installed, such as: [Atom](https://atom.io/), [Sublime](https://www.sublimetext.com/), [Visual Studio Code](https://code.visualstudio.com/), [Vim](http://www.vim.org/);
+* You need to have the [Node.js](https://nodejs.org/en/) installed properly in your machine, preferred the last release;
+* You need to have a code editor or some IDE installed in your computer, such as: [Atom](https://atom.io/), [Sublime](https://www.sublimetext.com/), [Visual Studio Code](https://code.visualstudio.com/), [Vim](http://www.vim.org/);
 
 ## What I'll learn here?
 
