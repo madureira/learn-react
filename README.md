@@ -6,7 +6,7 @@ The goal of this project is to help developers to learn React and the whole stac
 
 Through this tutorial, you will be able to construct an entire application using React and other usefull libraries like Bebel, Webpack, etc...
 
-## Read on [GitBook](https://madureira.gitbooks.io/learn-react/)
+## Read on [GitBook](https://madureira.gitbook.io/learn-react/)
 
 ## Prerequisites
 
