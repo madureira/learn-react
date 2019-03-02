@@ -6,4 +6,5 @@
     * [JSX](chapters/intro/jsx.md)
     * [Components](chapters/intro/components.md)
     * [Props](chapters/intro/props.md)
+    * [State](chapters/intro/state.md)
 * [Sources](chapters/sources.md)
