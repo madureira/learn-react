@@ -7,4 +7,5 @@
     * [Components](chapters/intro/components.md)
     * [Props](chapters/intro/props.md)
     * [State](chapters/intro/state.md)
+    * [Lifecycle](chapters/intro/lifecycle.md)
 * [Sources](chapters/sources.md)
