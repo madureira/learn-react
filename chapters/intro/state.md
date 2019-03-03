@@ -75,3 +75,48 @@ class Like extends Component {
 
 export default Like;
 ```
+
+Notice that we added a constructor to our component and inside it, we started a `state` object. We also changed our `<span>` to display the number of likes coming from the state.
+
+Now let's add the click event that will change this state by increasing the number of likes:
+
+```js
+import React from 'react';
+
+class Like extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      likes: 0
+    };
+  }
+
+  handleClick = function() {
+    this.setState({
+      likes: this.state.likes + 1
+    });
+  };
+
+  render() {
+    return (
+      <div>
+        <p>This is my article. Did you like it?</p>
+        <button onClick={ this.handleClick }>Like</button>
+        <span>{ this.state.likes }</span>
+      </div>
+    );
+  }
+
+}
+
+export default Like;
+```
+
+Now when the Like button receives a click it will change the state of the component:
+
+![](/images/image_012.png)
+
+Whenever there is a change in the state, through the `setState()` function call, React will call the `render()` function again, which will render the `JSX` for the user.
+
+The state helps us to manage the entire component automatically, without the necessity to manually change values in the DOM.
