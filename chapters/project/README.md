@@ -1,6 +1,6 @@
 # Hands-on
 
-Now that you know a little more about React, it's time to do something concrete.
+Now that you know a little more about React, it's time to do something concrete!
 
 ## The project
 
