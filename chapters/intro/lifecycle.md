@@ -22,16 +22,16 @@ For each phase, React provides some "lifecycle methods" that you can override to
 
 The following methods are called when an instance of a component is being created and inserted into the DOM:
 
-#### constructor(props)
+#### [constructor(props)](https://reactjs.org/docs/react-component.html#constructor)
 > The constructor of a React component is called before it is assembled. When implementing the constructor for a React `Component` subclass, you must call `super(props)` before any other statement. Otherwise, `this.props` will be `undefined` in the constructor, which can lead to errors.
 
-#### componentWillMount()
-> It is invoked before the assembly occurs and is called before the `render()` function, so calling `setState()` synchronously in this method will not trigger an extra rendering. It is generally recommended to use the `constructor()`.
+#### [static getDerivedStateFromProps(props, state)](https://reactjs.org/docs/react-component.html#static-getderivedstatefromprops)
+> Is invoked right before calling the `render` method, both on the initial mount and on subsequent updates. It should return an object to update the `state`, or `null` to update nothing. This method exists for rare use cases where the `state` depends on changes in `props` over time.
 
-#### render()
-> The `render()` function must be pure, which means that it does not modify the component's `state`, returns the same result each time it is invoked and does not interact directly with the browser. If you need to interact with the browser, run your operations on `componentDidMount()` or other lifecycle methods. Keeping pure rendering makes it easier to understand the components.
+#### [render()](https://reactjs.org/docs/react-component.html#render)
+> The `render()` function must be pure, which means that it does not modify the component's `state`, returns the same result each time it is invoked and does not interact directly with the browser. If you need to interact with the browser, run your operations on `componentDidMount()` or other lifecycle methods. Keeping pure rendering makes it easier to understand the components. The `render()` method is the only required method in a class component.
 
-#### componentDidMount()
+#### [componentDidMount(prevProps, prevState, snapshot)](https://reactjs.org/docs/react-component.html#componentdidmount)
 > It is called immediately after a component is mounted. Initializations that require DOM nodes to exist must be called inside this function. If you need to load data from a remote endpoint, this is an excellent place to instantiate the network request.
 
 ### Updating
