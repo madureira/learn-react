@@ -22,5 +22,8 @@ For each phase, React provides some "lifecycle methods" that you can override to
 
 The following methods are called when an instance of a component is being created and inserted into the DOM:
 
-##### constructor(props)
+#### constructor(props)
 > The constructor of a React component is called before it is assembled. When implementing the constructor for a React `Component` subclass, you must call `super(props)` before any other statement. Otherwise, `this.props` will be `undefined` in the constructor, which can lead to errors.
+
+#### componentWillMount()
+> It is invoked before the assembly occurs and is called before the `render()` function, so calling `setState()` synchronously in this method will not trigger an extra rendering. It is generally recommended to use the `constructor()`.
