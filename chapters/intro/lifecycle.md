@@ -1,6 +1,6 @@
 # Lifecycle
 
-![](/images/image_013.jpeg)
+![](/images/image_013.jpg)
 
 Every React component is created, modified, and destroyed at some point. In the middle of these three steps, there are some phases that compose what we call the "lifecycle" of the component.
 
@@ -40,3 +40,6 @@ An update can be caused by changes in the `props` or `state`. These methods are 
 
 #### [static getDerivedStateFromProps(props, state)](https://reactjs.org/docs/react-component.html#static-getderivedstatefromprops)
 > Is invoked right before calling the `render()` method, both on the initial mount and on subsequent updates. It should return an object to update the `state`, or `null` to update nothing. This method exists for rare use cases where the `state` depends on changes in `props` over time.
+
+
+![](/images/image_014.jpeg)
