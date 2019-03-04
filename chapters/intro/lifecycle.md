@@ -1,6 +1,6 @@
 # Lifecycle
 
-![](/images/image_013.png)
+![](/images/image_013.jpeg)
 
 Every React component is created, modified, and destroyed at some point. In the middle of these three steps, there are some phases that compose what we call the "lifecycle" of the component.
 
