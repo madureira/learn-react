@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introduction](chapters/intro/README.md)
     * [What is React?](chapters/intro/01-what-is-react.md)
     * [Virtual-DOM](chapters/intro/02-virtual-dom.md)
     * [JSX](chapters/intro/03-jsx.md)
