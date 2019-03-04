@@ -1,5 +1,7 @@
 # Creating the project
 
+![](/images/image_016.jpg)
+
 ## Choosing a workspace
 
 Initially, we must choose where we will create our project inside our computer.
