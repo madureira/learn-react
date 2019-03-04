@@ -92,17 +92,17 @@ class Like extends React.Component {
     };
   }
 
-  handleClick = function() {
-    this.setState({
-      likes: this.state.likes + 1
-    });
-  };
-
   render() {
     return (
       <div>
         <p>This is my article. Did you like it?</p>
-        <button onClick={ this.handleClick }>Like</button>
+        <button
+          onClick={ function() {
+            this.setState({ likes: this.state.likes + 1 });
+          }}
+        >
+          Like
+        </button>
         <span>{ this.state.likes }</span>
       </div>
     );
@@ -117,6 +117,6 @@ Now when the Like button receives a click it will change the state of the compon
 
 ![](/images/image_012.png)
 
-Whenever there is a change in the state, through the `setState()` function call, React will call the `render()` function again, which will render the `JSX` for the user.
+Whenever there is a change in the state, through the `setState()` function call, React will execute the `render()` function again, which will draw the component on the screen.
 
 The state helps us to manage the entire component automatically, without the necessity to manually change values in the DOM.
