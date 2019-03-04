@@ -1,7 +1,5 @@
 # Introduction
 
-The goal of this project is to help developers to learn [React](https://reactjs.org/) and the whole stack behind this powerful and amazing library.
-
 Through this tutorial, you will be able to construct an entire application using React and other useful libraries like [Babel](https://babeljs.io/), [Webpack](https://webpack.js.org/), etc.
 
 ## Prerequisites
