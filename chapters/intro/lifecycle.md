@@ -41,5 +41,9 @@ An update can be caused by changes in the `props` or `state`. These methods are 
 #### [static getDerivedStateFromProps(props, state)](https://reactjs.org/docs/react-component.html#static-getderivedstatefromprops)
 > Is invoked right before calling the `render()` method, both on the initial mount and on subsequent updates. It should return an object to update the `state`, or `null` to update nothing. This method exists for rare use cases where the `state` depends on changes in `props` over time.
 
+#### [shouldComponentUpdate(nextProps, nextState)](https://reactjs.org/docs/react-component.html#shouldcomponentupdate)
+> Use `shouldComponentUpdate()`` to let React know if a component’s output is not affected by the current change in `state` or `props`. The default behavior is to re-render on every `state` change, and in the vast majority of cases you should rely on the default behavior.
+
+
 
 ![](/images/image_014.jpeg)
