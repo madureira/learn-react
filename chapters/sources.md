@@ -27,3 +27,7 @@
 [https://webdesigntips.blog/web-design/javascript/using-react-style-callback-props-with-vue-pros-and-cons/](https://webdesigntips.blog/web-design/javascript/using-react-style-callback-props-with-vue-pros-and-cons/)
 
 [https://www.raywenderlich.com/1729-integrating-parse-and-react-native-for-ios](https://www.raywenderlich.com/1729-integrating-parse-and-react-native-for-ios)
+
+[https://code.likeagirl.io/understanding-react-component-life-cycle-49bf4b8674de](https://code.likeagirl.io/understanding-react-component-life-cycle-49bf4b8674de)
+
+[http://danorlando.com/leveraging-react-component-lifecycle-part-2-update-phase/](http://danorlando.com/leveraging-react-component-lifecycle-part-2-update-phase/)
