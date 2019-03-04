@@ -27,3 +27,13 @@ The following methods are called when an instance of a component is being create
 
 #### componentWillMount()
 > It is invoked before the assembly occurs and is called before the `render()` function, so calling `setState()` synchronously in this method will not trigger an extra rendering. It is generally recommended to use the `constructor()`.
+
+#### render()
+> The `render()` function must be pure, which means that it does not modify the component's `state`, returns the same result each time it is invoked and does not interact directly with the browser. If you need to interact with the browser, run your operations on `componentDidMount()` or other lifecycle methods. Keeping pure rendering makes it easier to understand the components.
+
+#### componentDidMount()
+> It is called immediately after a component is mounted. Initializations that require DOM nodes to exist must be called inside this function. If you need to load data from a remote endpoint, this is an excellent place to instantiate the network request.
+
+### Updating
+
+An update can be caused by changes in the `props` or `state`. These methods are called when a component is being **re-rendered**:
